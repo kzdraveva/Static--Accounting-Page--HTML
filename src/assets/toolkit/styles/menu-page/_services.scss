@@ -1,0 +1,85 @@
+.services{
+    text-align: center;
+}
+.headtext{
+    padding-top: 40px;
+}
+.accounting-ser{
+    color: $thirdText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    text-align: center;
+}
+.long-copy{
+    color: $thirdText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.accounting{
+    margin-bottom: 30px;
+}
+div.row.accounting > div:nth-child(n) > img{
+    width: 39px;
+    height: 39px;
+}
+.heading{
+    color: $thirdText-color;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    line-height: 22px;
+    padding-top: 40px;
+}
+.text{
+    color: $forthText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+//media queries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+    .heading{
+        padding-top: 20px;
+    }
+}
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px) { 
+    .accounting-ser{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .long-copy{
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 25px;
+        margin-bottom: 30px;
+    }
+    .heading{
+        padding-top: 20px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    .heading{
+        padding-top: 20px;
+    }
+    .text{
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 10px;
+    }
+}

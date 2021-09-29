@@ -1,0 +1,58 @@
+.about-us3{
+    height: 686px;
+    background-image: url("../images/about-us/about-us3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about3{
+    padding-top: 250px;
+}
+.about3 h1{
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 54px;
+    text-align: left;
+    float: left;
+}
+.about3 h6{
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular",sans-serif;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    float: left;
+    text-align: left;
+}
+//media queries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+    .about3 h1{
+        font-size: 45px;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    .about3 h1{
+        font-size: 40px;
+    }
+    .about3 h6{
+        line-height: 40px;
+    }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and  (max-width: 575.98px) { 
+    .about3{
+        padding-top: 200px;
+    }
+    .about3 h1{
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .about3 h6{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

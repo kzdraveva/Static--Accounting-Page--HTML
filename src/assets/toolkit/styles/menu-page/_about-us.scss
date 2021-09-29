@@ -1,0 +1,62 @@
+.about-us{
+    height: 686px;
+    background-image: url("../images/about-us/about-us.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about{
+    min-height: 686px;
+}
+.about div{
+    padding: 30px;
+}
+div h1{
+    font-size: 48px;
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular",sans-serif;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+ div h6{
+    font-size: 25px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    color: $mainText-color;
+    line-height: 44px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+//media queries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+    div h1{
+        font-size: 45px;
+    }
+    div h6{
+        font-size:23px;
+    }
+}
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px){
+    div h1{
+        font-size: 40px;
+    }
+    div h6{
+        font-size:20px;
+        line-height: 38px;
+    }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and  (max-width: 575.98px) { 
+    div h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    div h6{
+        font-size:18px;
+        line-height: 30px;
+    }
+}

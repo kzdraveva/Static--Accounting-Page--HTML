@@ -1,0 +1,45 @@
+.proud-members{
+    text-align: center;
+}
+.proud-memb{
+    color: $thirdText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    padding-top:40px;
+    text-align: center;
+}
+div h3{
+    color: $secText-color;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.18px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    padding-bottom: 12px;
+    margin: auto;
+}
+div h5{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    letter-spacing: 2.5px;
+    color: $forthText-color;
+    padding-top: 12px;
+    margin: auto;
+}
+.aboutinfo{
+    margin-bottom: 40px;
+}
+//media queries
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    div h3{
+        font-size: 58px;
+        line-height: 40px;
+    }
+    div h5{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,37 @@
+.teams{
+    text-align: center;
+}
+.our-team{
+    padding-top: 40px;
+}
+.team{
+    color: $thirdText-color;
+    font-size: 20px;
+}
+body > div.team > section > div > div.row.ourTeam > div:nth-child(n) > div > div > img{
+    width: 120px;
+    height: 120px;
+}
+.img-text p{
+    color:$forthText-color;
+    font-size: 18px;
+}
+.ourTeam{
+    margin-bottom: 40px;
+}
+.single-box{
+    padding: 10px;
+}
+//media queries
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px){
+    .team{
+        font-size: 16px;
+    }
+    .img-text p{
+        font-size: 15px;
+    }
+    .ourTeam{
+        margin-bottom: 20px;
+    }
+}

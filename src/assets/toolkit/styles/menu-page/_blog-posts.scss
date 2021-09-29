@@ -1,0 +1,81 @@
+.blog-posts{
+    text-align: center;
+}
+.blog{
+    margin-bottom: 40px;
+}
+.posts{
+    color: $thirdText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    padding-top: 40px;
+}
+.long-copy{
+    margin-bottom: 40px;
+}
+.card-title {
+    color: $mainText-color;
+    padding-top: 42px;
+    padding-bottom: 10px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.card-text{
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+}
+//media queries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+    .card-title{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 17px;
+    }
+}
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px){
+    .card-title{
+        padding-top: 10px;
+        font-size: 13px;
+        line-height: 10px;
+    }
+    .card-text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    .card-title {
+        padding-top: 42px;
+        padding-bottom: 10px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .card-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and  (max-width: 575.98px) { 
+    .card-title {
+        font-size: 35px;
+    }
+    .card-text{
+        font-size: 25px;
+    }
+ }

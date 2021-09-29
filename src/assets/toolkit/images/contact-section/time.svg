@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>04DAC625-6C62-4E06-A72A-1D38536DF939</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accounting-Page" transform="translate(-932.000000, -730.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Contact-Section" transform="translate(0.000000, 686.000000)">
+                <g id="Time" transform="translate(932.000000, 41.000000)">
+                    <g id="Time-Icon" transform="translate(0.000000, 3.000000)">
+                        <path d="M25,0 C11.215,0 0,11.215 0,25 C0,38.785 11.215,50 25,50 C38.785,50 50,38.785 50,25 C50,11.215 38.785,0 25,0 Z M25,48.3333333 C12.1341667,48.3333333 1.66666667,37.8658333 1.66666667,25 C1.66666667,12.1341667 12.1341667,1.66666667 25,1.66666667 C37.8658333,1.66666667 48.3333333,12.1341667 48.3333333,25 C48.3333333,37.8658333 37.8658333,48.3333333 25,48.3333333 Z" id="Shape"></path>
+                        <path d="M25,5 C24.54,5 24.1666667,5.3725 24.1666667,5.83333333 L24.1666667,25 L11.6666667,25 C11.2066667,25 10.8333333,25.3725 10.8333333,25.8333333 C10.8333333,26.2941667 11.2066667,26.6666667 11.6666667,26.6666667 L25,26.6666667 C25.46,26.6666667 25.8333333,26.2941667 25.8333333,25.8333333 L25.8333333,5.83333333 C25.8333333,5.3725 25.46,5 25,5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

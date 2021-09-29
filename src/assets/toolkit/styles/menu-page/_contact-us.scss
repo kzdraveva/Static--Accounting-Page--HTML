@@ -1,0 +1,100 @@
+.contact-us{
+    background-color: $fifth-color;
+}
+.contactUS{
+    color: $mainText-color;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+}
+.contText{
+    color: $mainText-color;
+    padding-top: 30px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+//form
+.form .contactEmail{
+    background-color: $main-color;
+    width: 70%;
+    margin: 40px auto;
+}
+.contactImg{
+    float: left;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+.sendUs{
+    float: left;
+    padding-top:40px;
+    padding-left: 30px;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.17px;
+    line-height: 44px;
+    color: $secText-color;
+}
+.contact-form{
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+    float: left;
+}
+div > div:nth-child(n) > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid $third-color;
+    border-radius: 0;
+}
+label{
+    color: #386F8F;
+    font-family: "ProximaNova-Regular",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    float: left;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+.shape{
+    margin-top: 30px;
+    float: right;
+    background-color: $third-color;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+//media queries
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    .form .contactEmail{
+        width: 100%;
+    }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and  (max-width: 575.98px) { 
+    .contactImg{
+        margin-left: 55px;
+    }
+    .sendUs{
+        font-size: 23px;
+        line-height: 40px;
+        padding-left: 10px;
+    }
+    .contact-form{
+        padding-top: 20px;
+    }
+    .form .contactEmail{
+        width: 90%;
+    }
+    label{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

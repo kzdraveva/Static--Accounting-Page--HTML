@@ -1,0 +1,121 @@
+//SLIDER
+.slider{
+  margin-top: -72px !important;
+}
+.carousel-caption h1 {
+    padding-bottom: 15px;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 53px;
+    letter-spacing: 0.18px;
+    color: $mainText-color;
+    text-shadow:  0 2px 4px rgba($color: #000000, $alpha: 0.5);
+}
+  .carousel-caption h6{
+    padding-top: 30px;
+    font-size: 28px;
+    color:$mainText-color;
+    line-height: 44px;
+    padding-bottom: 145px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+#carouselExampleIndicators > div.carousel-indicators > button:nth-child(n){
+border-radius: 50%;
+width: 10px;
+height: 10px;
+margin-bottom: 15px;
+}
+#carouselExampleIndicators > div.carousel-indicators > button:nth-child(n):active,
+#carouselExampleIndicators > div.carousel-indicators > button:nth-child(n):hover,
+#carouselExampleIndicators > div.carousel-indicators > button:nth-child(n):link,
+#carouselExampleIndicators > div.carousel-indicators > button:nth-child(n):visited{
+  background-color: $third-color;
+}
+
+//media querries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+  .carousel-caption h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .carousel-caption h6{
+    font-size: 22px;
+    padding-bottom: 100px;
+    padding-top: 15px;
+  }
+}
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px){
+  .carousel-caption h1 {
+    font-size: 38px;
+    padding-bottom: 7px;
+  }
+  .carousel-caption h6{
+    font-size: 18px;
+    line-height: 38px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+  body > div.page-wraper > header > nav > div > button{
+    width: 100px;
+    height: auto;
+  }
+  #carouselExampleIndicators > div.carousel-indicators > button:nth-child(n){
+    margin-bottom: 10px;
+    }
+  
+}
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+  .carousel-caption h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+  .carousel-caption h6{
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+  body > div.page-wraper > header > nav > div > button{
+    width: 55px;
+    height: auto;
+  }
+  #carouselExampleIndicators > div.carousel-indicators > button:nth-child(n){
+    width: 8px;
+    height: 8px;
+    margin-bottom: 8px;
+    }
+    .slider{
+      margin-top: 0;
+    }
+    
+}
+// X-Small devices (portrait phones, less than 576px)
+@media only screen and  (max-width: 575.98px) { 
+  .carousel-caption h1 {
+    font-size: 15px;
+    padding-bottom: 2px;
+    line-height: 15px;
+  }
+  .carousel-caption h6{
+    font-size: 10px;
+    padding-bottom: 6px;
+    line-height: 15px;
+  }
+  .carousel-item {
+    margin-top: 30px;
+  }
+  body > div.page-wraper > header > nav > div > button{
+    width: 32px;
+    height: auto;
+    padding: 0;
+  }
+  #carouselExampleIndicators > div.carousel-indicators > button:nth-child(n){
+    width: 5px;
+    height: 5px;
+    margin-bottom: -5px;
+    }
+}

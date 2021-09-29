@@ -1,0 +1,85 @@
+.contact{
+    // height: 136px;
+    background-color: $third-color;
+}
+.cont-sec{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 130px;
+}
+body > div.contact-section > section > div > div > div:nth-child(1) > img{
+    float: left;
+    width: 48px;
+    height: auto;
+}
+body > div.contact-section > section > div > div > div:nth-child(2) > img{
+    float: left;
+    width: 39px;
+    height: auto;
+}
+body > div.contact-section > section > div > div > div:nth-child(3) > img{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.info .p1{
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 18px;  
+    margin-left: 65px;
+}
+.info .p2{
+    color: $mainText-color;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 16px;
+    opacity: 60%;
+    margin-left: 65px;
+}
+
+//media queries
+// Large devices (desktops, less than 1200px)
+@media only screen and (max-width: 1199.98px) { 
+    .cont-sec{
+        padding-left: 80px;
+    }
+}
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991.98px){
+    .cont-sec{
+        padding-left: 60px;
+    }
+    body > div.contact-section > section > div > div > div:nth-child(1) > img{
+        width: 45px;
+    }
+    body > div.contact-section > section > div > div > div:nth-child(2) > img{
+        width: 34px;
+    }
+    body > div.contact-section > section > div > div > div:nth-child(3) > img{
+        width: 45px;
+    }
+    .info .p1{
+        font-size: 13px;  
+    }
+    .info .p2{
+        font-size: 14px;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767.98px) { 
+    .cont-sec{
+        padding-left: 0;
+        margin: auto;
+        text-align: center;
+    }
+    body > div.contact-section > section > div > div > div:nth-child(n) > img{
+        float: none !important;
+        margin-bottom: 15px;
+    }
+    .info .p1{  
+        margin: 0;
+    }
+    .info .p2{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
